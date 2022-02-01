@@ -150,7 +150,7 @@ class Dataset(object):
         if self.benchmark_filename_list is None:
             self._data_filtering()
 
-        self._remap_ID_all()
+        # self._remap_ID_all()
         self._user_item_feat_preparation()
         self._fill_nan()
         self._set_label_by_threshold()
